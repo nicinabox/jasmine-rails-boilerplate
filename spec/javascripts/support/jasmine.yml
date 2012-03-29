@@ -1,0 +1,18 @@
+src_dir: app/assets/javascripts
+
+asset_paths:
+- vendor/assets/javascripts
+
+
+src_files:
+  - "vendor/**/*.{js,coffee}"
+  - "lib/**/*.{js,coffee}"
+  - "app/**/*.{js,coffee}"
+
+spec_files:
+  - "**/*[Ss]pec.{js,coffee}"
+
+helpers:
+  - "helpers/**/*.{js,coffee}"
+
+spec_dir: spec/javascripts
