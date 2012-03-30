@@ -64,7 +64,11 @@ If you're using Lion, you'll likely get a message like...
 
     Can't load, the file may be broken.
 
-...in which case you'll want to install jasmine-headless-webkit from source. Don't worry, it's not hard!
+...in which case you'll want to load the gem directly from Github.
+
+    gem 'jasmine-headless-webkit', :git => https://github.com/johnbintz/jasmine-headless-webkit.git
+
+In some cases you may even need to install from source. Don't worry, it's not hard!
 
     git clone https://github.com/johnbintz/jasmine-headless-webkit.git
     cd jasmine-headless-webkit
